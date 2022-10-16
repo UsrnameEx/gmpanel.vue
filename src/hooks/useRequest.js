@@ -1,4 +1,5 @@
-import {onMounted} from "vue";
+import {onMounted, ref} from "vue";
+import {useMeta} from "@/hooks/useMeta";
 
 export function useRequest(url, params = {}, callback) {
     const request = () => {
@@ -15,6 +16,8 @@ export function useRequest(url, params = {}, callback) {
                         callback(
                             data
                         );
+
+                        useMeta(data.metaData);
                     });
                 } else {
                     console.log('Json error');

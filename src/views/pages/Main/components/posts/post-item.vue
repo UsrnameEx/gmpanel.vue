@@ -1,6 +1,6 @@
 <template>
 	<div class="post__item">
-		<a href="#">
+		<router-link :to="post.link">
 			<div class="col-12 post-item">
 				<div class="card border-dark">
 					<div class="card-body">
@@ -11,7 +11,7 @@
 					</div>
 				</div>
 			</div>
-		</a>
+		</router-link>
 	</div>
 </template>
 
