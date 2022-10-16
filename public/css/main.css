@@ -96,16 +96,6 @@ header {
     color: var(--bs-primary);
 }
 
-.posts a {
-    text-decoration: none;
-    color: #222;
-    margin-top: 1em;
-}
-
-.post-item {
-    margin-bottom: 0.4em;
-}
-
 .services .card {
     margin-bottom: 0.4em;
 }

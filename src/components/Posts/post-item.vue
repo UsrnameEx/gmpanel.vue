@@ -27,6 +27,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+.post__item {
+	margin-bottom: 0.4em;
+}
 </style>

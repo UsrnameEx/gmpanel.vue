@@ -23,7 +23,7 @@
 import {useRequest} from "@/hooks/useRequest";
 
 import ServersList from "@/views/pages/Main/components/servers/servers-list";
-import PostsList from "@/views/pages/Main/components/posts/posts-list";
+import PostsList from "@/components/Posts/posts-list";
 import ServicesList from "@/views/pages/Main/components/services/services-list";
 
 export default {

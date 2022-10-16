@@ -23,7 +23,7 @@ export default {
 	data() {
 		return {
 			content: false,
-			breadcrumbs: false
+			breadcrumbs: []
 		}
 	},
 	

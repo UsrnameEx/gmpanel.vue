@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import PostItem from "@/views/pages/Main/components/posts/post-item";
+import PostItem from "@/components/Posts/post-item";
 export default {
 	name: "posts-list",
 	components: {PostItem},
@@ -22,6 +22,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+.posts a {
+	text-decoration: none;
+	color: #222;
+	margin-top: 1em;
+}
+
+.posts:first-child {
+	padding-top: 0.8rem;
+}
+
+.posts:last-child {
+	padding-bottom: 0.8rem;
+}
 
 </style>
